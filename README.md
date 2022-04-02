@@ -1,2 +1,2 @@
-# javascript-basic-algorithm-summary
+# javascript-algorithm-solutions
 javascript data structures 
