@@ -20,7 +20,7 @@ var addTwoNumbers = function(l1, l2) {
         s2 += l2.val;
         l2 = l2.next;
     }
-    let sum = (BigInt(a1.split("").reverse().join("")) + BigInt(a2.split("").reverse().join(""))).toString().split("").reverse().join("");
+    let sum = (BigInt(s1.split("").reverse().join("")) + BigInt(s2.split("").reverse().join(""))).toString().split("").reverse().join("");
     let ne = new ListNode(sum.charAt(0));
     let temp = ne;
     for(let i=1;i<sum.length;i++){
